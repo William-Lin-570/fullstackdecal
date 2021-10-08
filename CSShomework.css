@@ -1,0 +1,199 @@
+/* Ignore following classes */
+
+* {
+  font-family: "Montserrat", sans-serif;
+  background-color: #eeeeee;
+}
+
+#intro {
+  color: rgb(0, 0, 0);
+  text-align: center;
+  margin: 50px;
+}
+
+.insideborder {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.para {
+  font-weight: 300;
+  margin-left: 10px;
+}
+
+h2 {
+  font-size: medium;
+  font-weight: 200;
+}
+
+/* Classes that you might find useful */
+/* Note* These classes do not cover every possibloe case to build you flags, you will have to continue to add your own*/
+
+.flag {
+  height: 300px;
+  width: 500px;
+  border-style: solid;
+  margin-bottom: 5rem;
+}
+
+.horiz {
+  display: flex;
+  flex-direction: row;
+}
+
+.onetwoeighthoriz {
+  width: 12.8%;
+}
+
+.sixfourhoriz {
+  width: 6.4%;
+}
+
+.thirtytwohoriz {
+  width: 32%;
+}
+
+.sixtyeighthoriz {
+  width: 68%;
+}
+
+.fourninthsvert {
+  height: 44.44444444%;
+}
+
+.fiveninthsvert {
+  height: 55.55555555%;
+}
+
+.twovert {
+  height: 50%;
+}
+
+.threevert {
+  height: 33.3333%;
+}
+
+.fourvert {
+  height: 25%;
+}
+
+.fivevert {
+  height: 20%;
+}
+
+.twofifthvert {
+  height: 40%;
+}
+
+.ninevert {
+  height: 11.11111111%;
+}
+
+.sixvert {
+  height: 16.6667%;
+}
+
+.twohoriz {
+  width: 50%;
+}
+
+.threehoriz {
+  width: 33.3333%;
+}
+
+.fivehoriz {
+  width: 20%;
+}
+
+.twofifthhoriz {
+  width: 40%;
+}
+
+.skinny {
+  height: 17.5%;
+}
+
+.fat {
+  height: 30%;
+}
+
+.circle {
+  border-radius: 100%;
+  height: 41.67%;
+  width: 125px;
+  position: relative;
+  left: 21px;
+  right: 21px;
+  top: 87px;
+  background-image: url("./flag_eagle.png");
+  z-index: 999;
+}
+
+/* Colors/ Feel free to add your own! */
+
+.red {
+  background-color: red;
+}
+
+.orange {
+  background-color: orange;
+}
+
+.yellow {
+  background-color: yellow;
+}
+
+.green {
+  background-color: green;
+}
+
+.blue {
+  background-color: blue;
+}
+
+.lightblue {
+  background-color: lightblue;
+}
+
+.purple {
+  background-color: purple;
+}
+
+.white {
+  background-color: #fff;
+}
+
+.luxblue {
+  background-color: #00a2e1;
+}
+
+.thaiblue {
+  background-color: #2d2a4a;
+}
+
+.romablue {
+  background-color: #002b7f;
+}
+
+.romayellow {
+  background-color: #fcd116;
+}
+
+.gblue {
+  background-color: #0d5eaf;
+}
+
+.eagle {
+  background-image: url("flag_eagle.png");
+}
+
+.styledimg{
+  background-image: url("flag_eagle.png");
+}
+
+.ImSticky {
+  position: fixed;
+  bottom: 0;
+  right: 0;
+}
